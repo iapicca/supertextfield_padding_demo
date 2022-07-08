@@ -19,9 +19,7 @@ class Application extends StatelessWidget {
                 ),
               ),
               child: const Center(
-                child: SuperTextField(
-                  padding: EdgeInsets.symmetric(horizontal: 10),
-                ),
+                child: SuperTextField(),
               ),
             ),
           ),

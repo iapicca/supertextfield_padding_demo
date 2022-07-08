@@ -9,11 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  super_editor: 
-    git:
-      url: https://github.com/iapicca/super_editor.git
-      ref: supertextfield_padding
-      path: super_editor
+  # super_editor: 
+  #   git:
+  #     url: https://github.com/iapicca/super_editor.git
+  #     ref: supertextfield_padding
+  #     path: super_editor
+  super_editor: ^0.2.0
+      
 dependency_overrides:
   flutter_lints: ^2.0.1
 
